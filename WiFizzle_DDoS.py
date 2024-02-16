@@ -73,6 +73,7 @@ while True:
             os.system("aireplay-ng -D --deauth 0  --ignore-negative-one  -a "+ wifi_bssid  + " " +  get_wifi_interface())
         elif i == '4':
             # Exit the program
+            os.system("airmon-ng stop " + str(get_wifi_interface()))
             break
     except KeyboardInterrupt:
         # Handle KeyboardInterrupt (Ctrl+C)

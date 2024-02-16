@@ -30,6 +30,8 @@ Before using this script, ensure you have the following prerequisites installed:
 
    ```bash
    cd your-repository
+   
+   chmod +x WiFizzle_DDoS.py
    ```
 
 
@@ -37,7 +39,7 @@ Before using this script, ensure you have the following prerequisites installed:
 1. Run the script:
 
    ```bash
-   python WiFizzle_DDoS.py
+   sudo python WiFizzle_DDoS.py
    ```
 
 2. Follow the on-screen instructions to perform Wi-Fi DoS attacks.

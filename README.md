@@ -1,6 +1,6 @@
 Certainly! Below is a template for a README.md file for your GitHub repository:
 
-```markdown
+
 # OUTIS WIFI DOSS
 
 This Python script enables you to perform Wi-Fi Denial of Service (DoS) attacks using tools like `airmon-ng`, `aireplay-ng`, and `airodump-ng`.
@@ -32,7 +32,7 @@ Before using this script, ensure you have the following prerequisites installed:
    cd your-repository
    ```
 
-## Usage
+
 
 1. Run the script:
 

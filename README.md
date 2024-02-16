@@ -31,7 +31,6 @@ Before using this script, ensure you have the following prerequisites installed:
    ```bash
    cd your-repository
    
-   chmod +x WiFizzle_DDoS.py
    ```
 
 

@@ -1,5 +1,3 @@
-Certainly! Below is a template for a README.md file for your GitHub repository:
-
 
 # OUTIS WIFI DOSS
 
@@ -23,7 +21,7 @@ Before using this script, ensure you have the following prerequisites installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/WiFizzle_DDoS.git
+   git clone https://github.com/Joseph-George1/WiFizzle_DDoS.git
    ```
 
 2. Navigate to the project directory:

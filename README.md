@@ -1,5 +1,7 @@
 
-# OUTIS WIFI DOSS
+# WiFizzle-DDoS
+![image](https://github.com/user-attachments/assets/9e8582e1-72f9-452b-a2cd-3d3e2dc120f1)
+
 
 This Python script enables you to perform Wi-Fi Denial of Service (DoS) attacks using tools like `airmon-ng`, `aireplay-ng`, and `airodump-ng`.
 

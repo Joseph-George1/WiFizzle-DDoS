@@ -35,13 +35,18 @@ Before using this script, ensure you have the following prerequisites installed:
 
 
 
-1. Run the script:
+3. Run the inistall script:
 
    ```bash
-   sudo python WiFizzle_DDoS.py
+   sudo chmod 755 install.sh
+   sudo ./install.sh
    ```
-
-2. Follow the on-screen instructions to perform Wi-Fi DoS attacks.
+4. Run the tool 
+   ```bash
+   sudo WiFizzle
+   ```
+ 
+5. Follow the on-screen instructions to perform Wi-Fi DoS attacks.
 
 
 

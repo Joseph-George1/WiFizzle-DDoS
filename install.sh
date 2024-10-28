@@ -29,7 +29,7 @@ aircrack-ng --version >/dev/null 2>&1 || {
 
 # Define variables
 script_name="WiFizzle"
-python_script="WiFizzle-DDoS.py"
+python_script="WiFizzle_DDoS.py"
 install_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Error handling function

@@ -6,15 +6,24 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 # Check for Python 3
-python3 --version >/dev/null 2>&1 || { echo -e "${RED}Looks like Python 3 decided to take a nap. Go wake it up! (Install required)${NC}"; exit 1; }
+python3 --version >/dev/null 2>&1 || {
+  echo -e "${RED}Looks like Python 3 decided to take a nap. Go wake it up! (Install required)${NC}"
+  exit 1
+}
 
 # Check for sudo privileges
-sudo ls / >/dev/null 2>&1 || { echo -e "${RED}Uh oh, seems you don't have the key to the castle! (Sudo privileges needed)${NC}"; exit 1; }
+sudo ls / >/dev/null 2>&1 || {
+  echo -e "${RED}Uh oh, seems you don't have the key to the castle! (Sudo privileges needed)${NC}"
+  exit 1
+}
 
 # Check for aircrack-ng installation
-aircrack-ng --version >/dev/null 2>&1 || { 
+aircrack-ng --version >/dev/null 2>&1 || {
   echo -e "${GREEN}aircrack-ng is missing in action! We'll try to recruit it for your mission.${NC}"
-  sudo apt install -y aircrack-ng || { echo -e "${RED}Oh no, the recruitment failed! Maybe a manual installation is needed.${NC}"; exit 1; }
+  sudo apt install -y aircrack-ng || {
+    echo -e "${RED}Oh no, the recruitment failed! Maybe a manual installation is needed.${NC}"
+    exit 1
+  }
   echo -e "${GREEN}aircrack-ng joined the party! Let's crack some protocols ;).${NC}"
 }
 
